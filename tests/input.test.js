@@ -14,7 +14,7 @@ describe("readInput function", () => {
       rows: 6,
       columns: 6,
       generations: 8,
-      matrix: ["......", "...xx.", "..xx..", "..xx..", "...x..","......"],
+      matrix: ["......", "....x.", "..xx..", "..xx..", "...x..","......"],
     });
   })
 });
