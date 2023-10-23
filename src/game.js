@@ -1,5 +1,5 @@
-import { Map } from "./map.mjs"
-import { readInput } from "./input.mjs"
+import { Map } from "./map.js"
+import { readInput } from "./input.js"
 
 export class Game {
     constructor(FilePath){

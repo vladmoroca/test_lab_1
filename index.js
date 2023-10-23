@@ -1,5 +1,5 @@
-import { Game } from "./src/game.mjs";
-import { writeOutput } from "./src/output.mjs";
+import { Game } from "./src/game.js";
+import { writeOutput } from "./src/output.js";
 
 (() => {
     const pathToFile = "./input.txt";
