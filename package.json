@@ -1,0 +1,26 @@
+{
+  "name": "game_of_life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmoroca/test_lab_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladmoroca/test_lab_1/issues"
+  },
+  "homepage": "https://github.com/vladmoroca/test_lab_1#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
