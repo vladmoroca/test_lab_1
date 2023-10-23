@@ -6,7 +6,7 @@ jest.mock("fs");
 describe("readInput function", () => {
   const pathToFile = "../input.txt";
   it("reads and parses valid input file correctly", () => {
-    const mockData = "8\n6 6\n......\n...x..\n..xx..\n..xx..\n...x..\n......";
+    const mockData = "8\n6 6\n......\n...xx.\n..xx..\n..xx..\n...x..\n......";
     fs.readFileSync.mockReturnValueOnce(mockData);
 
     const result = readInput(pathToFile);
@@ -14,7 +14,7 @@ describe("readInput function", () => {
       rows: 6,
       columns: 6,
       generations: 8,
-      matrix: ["......", "...x..", "..xx..", "..xx..", "...x..","......"],
+      matrix: ["......", "...xx.", "..xx..", "..xx..", "...x..","......"],
     });
   })
 });
