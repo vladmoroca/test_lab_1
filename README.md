@@ -12,4 +12,4 @@ Group: IM-11
 ### Commands:
 - Install dependencies: `npm i`;
 - Run game: `npm run start`;
-- Run tests: `npm run tests`;
+- Run tests: `npm run test`;
