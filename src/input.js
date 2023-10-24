@@ -3,9 +3,8 @@ import fs from "fs";
 export const readInput = (filePath) => {
     const data = fs.readFileSync(filePath, "utf8");
     const [generations, columns, rows] = data.match(/\d+/g).map(Number);
-    const matrix = data.split("\n").slice(2);
+    const matrix = data.split("\n").slice(2).map((line) => line.replace(/\r/g, ''));
     let valid = matrix.length == rows
-    console.log(matrix)
     matrix.map((row) => {
       if(row.length != columns) valid = false
     })
